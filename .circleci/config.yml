@@ -19,5 +19,6 @@ jobs:
       - run:
           name: Create conda env 
           command: |
-            conda create -n ${ENV_NAME} python=${PYTHON} cookiecutter --yes
+            conda create -n ${ENV_NAME} -c conda-forge python=${PYTHON} cookiecutter --yes
+            conda list ${ENV_NAME}
             
