@@ -1,0 +1,25 @@
+version: 2
+workflows:
+  version: 2
+  default:
+    jobs:
+      - "python-3.7"
+
+jobs:
+  "python-3.7":
+    docker:
+      - image: continuumio/miniconda:latest
+    environment:
+      PYTHON: "3.7"
+      ENV_NAME: "dev"
+
+    steps:
+      - checkout 
+
+      - run:
+          name: Create conda env 
+          command: |
+            conda create -n ${ENV_NAME} -c conda-forge python=${PYTHON} cookiecutter --yes
+            source activate ${ENV_NAME}
+            
+            
