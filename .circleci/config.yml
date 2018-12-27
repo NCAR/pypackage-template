@@ -9,12 +9,15 @@ jobs:
   "python-3.7":
     docker:
       - image: continuumio/miniconda:latest
+    environment:
+      PYTHON: "3.7"
+      ENV_NAME: "dev"
 
     steps:
       - checkout 
 
       - run:
-          name: Install Cookiecutter
+          name: Create conda env 
           command: |
-            pip install cookiecutter --user
-            cookiecutter --help
+            conda create -n ${ENV_NAME} python=${PYTHON} cookiecutter --yes
+            
