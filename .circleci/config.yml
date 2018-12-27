@@ -15,4 +15,6 @@ jobs:
 
       - run:
           name: Install Cookiecutter
-          command: pip install cookiecutter --user
+          command: |
+            pip install cookiecutter --user
+            cookiecutter --help
