@@ -1,0 +1,18 @@
+version: 2
+workflows:
+  version: 2
+  default:
+    jobs:
+      - "python-3.7"
+
+jobs:
+  "python-3.7":
+    docker:
+      - image: circleci/python:3.7.0-stretch
+
+    steps:
+      - checkout 
+
+      - run:
+          name: Install Cookiecutter
+          command: pip install cookiecutter
