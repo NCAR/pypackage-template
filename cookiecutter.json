@@ -5,5 +5,6 @@
     "project_name": "cmip-ap",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "{{ cookiecutter.project_name }}",
-    "open_source_license": "Apache-2.0 license"
+    "open_source_license": "Apache-2.0 license",
+    "year": "2019"
   }
