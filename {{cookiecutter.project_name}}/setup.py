@@ -17,9 +17,7 @@ setup(
     maintainer='{{ cookiecutter.full_name }}',
     maintainer_email='{{ cookiecutter.email }}',
     url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}',
-    packages=[
-        '{{ cookiecutter.project_name }}',
-    ],
+    packages=find_packages(),
     package_dir={'{{ cookiecutter.project_name }}': '{{ cookiecutter.project_name }}'},
     include_package_data=True,
     install_requires=[
