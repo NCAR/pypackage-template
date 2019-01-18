@@ -13,6 +13,15 @@
     :target: https://{{ cookiecutter.project_name }}.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
+.. image:: https://img.shields.io/pypi/v/{{ cookiecutter.project_name }}.svg?style=for-the-badge
+    :target: https://pypi.org/project/{{ cookiecutter.project_name }}
+    :alt: Python Package Index
+    
+.. image:: https://img.shields.io/conda/vn/conda-forge/{{ cookiecutter.project_name }}.svg?style=for-the-badge
+    :target: https://anaconda.org/conda-forge/{{ cookiecutter.project_name }}
+    :alt: Conda Version
+
+
 {{ cookiecutter.project_short_description}}.
 See documentation_ for more information.
 
