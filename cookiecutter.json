@@ -1,10 +1,10 @@
 {
-    "full_name": "Anderson Banihirwe",
-    "email": "ander@example.com",
-    "github_username": "andersy005",
-    "project_name": "cmip-ap",
+    "maintainer_full_name": "Foo Bar",
+    "maintainer_email": "foo@example.com",
+    "github_username_or_organization": "foobar",
+    "project_name": "example-demo",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "{{ cookiecutter.project_name }}",
-    "open_source_license": "Apache-2.0 license",
+    "open_source_license": "Apache 2.0",
     "year": "2019"
   }

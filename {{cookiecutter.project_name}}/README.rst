@@ -2,11 +2,11 @@
 {{ cookiecutter.project_name }}
 ===============================
 
-.. image:: https://img.shields.io/circleci/project/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/master.svg?style=for-the-badge
-    :target: https://circleci.com/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/tree/master
+.. image:: https://img.shields.io/circleci/project/github/{{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_name }}/master.svg?style=for-the-badge
+    :target: https://circleci.com/gh/{{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_name }}/tree/master
 
-.. image:: https://img.shields.io/codecov/c/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}.svg?style=for-the-badge
-    :target: https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}
+.. image:: https://img.shields.io/codecov/c/github/{{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_name }}.svg?style=for-the-badge
+    :target: https://codecov.io/gh/{{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_name }}
 
 
 .. image:: https://img.shields.io/readthedocs/{{ cookiecutter.project_name }}/latest.svg?style=for-the-badge

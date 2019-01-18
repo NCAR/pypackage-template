@@ -2,7 +2,7 @@ name: {{ cookiecutter.project_name }}-dev
 channels:
   - conda-forge
 dependencies:
-  - python=2.7
+  - python=3.7
   - numpy
   - xarray
   - netcdf4
