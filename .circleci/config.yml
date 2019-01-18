@@ -26,6 +26,6 @@ jobs:
           command: |
             source activate ${ENV_NAME}
             cookiecutter . --no-input
-            cd ./cmip-ap && ls -l */*
+            cd ./example-demo && ls -l */*
             
             
