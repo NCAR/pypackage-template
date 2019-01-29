@@ -10,7 +10,7 @@ Contents:
    usage
    contributing
    authors
-   history
+   changelog
 
 Feedback
 ========
