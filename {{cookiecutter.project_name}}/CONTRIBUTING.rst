@@ -1,6 +1,6 @@
-============================
-Contribution getting started
-============================
+=============================================
+Contributing to {{cookiecutter.project_name}}
+=============================================
 
 Contributions are highly welcomed and appreciated.  Every little help counts,
 so do not hesitate!
@@ -105,8 +105,7 @@ Preparing Pull Requests
 
     $ git checkout -b your-bugfix-feature-branch-name master
 
-   If you need some help with Git, follow this quick start
-   guide: https://git.wiki.kernel.org/index.php/QuickStart
+   
 
 #. Install `pre-commit <https://pre-commit.com>`_ and its hook on the {{ cookiecutter.project_name }} repo::
 
@@ -128,7 +127,7 @@ Preparing Pull Requests
    Now running tests is as simple as issuing this command::
 
     $ conda activate {{ cookiecutter.project_name }}-dev
-    $ pytest --junitxml=test-reports/junit.xml --cov=./
+    $ pytest --junitxml=test-reports/junit.xml --cov=./ --verbose 
 
 
    This command will run tests via the "pytest" tool against Python 3.7.
@@ -142,11 +141,6 @@ Preparing Pull Requests
     $ git commit -a -m "<commit message>"
     $ git push -u
 
-#. Create a new changelog entry in ``changelog``. The file should be named ``<issueid>.<type>``,
-   where *issueid* is the number of the issue related to the change and *type* is one of
-   ``bugfix``, ``removal``, ``feature``, ``doc`` or ``trivial``.
-
-#. Add yourself to ``AUTHORS`` file if not there yet, in alphabetical order.
 
 #. Finally, submit a pull request through the GitHub website using this data::
 
@@ -154,4 +148,4 @@ Preparing Pull Requests
     compare: your-branch-name
 
     base-fork: {{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_name }}
-    base: master          # if it's a bugfix or feature
+    base: master          

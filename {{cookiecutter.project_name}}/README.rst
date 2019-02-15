@@ -25,5 +25,4 @@
 {{ cookiecutter.project_short_description}}.
 See documentation_ for more information.
 
-.. _documentation: https://{{ cookiecutter.project_name }}.readthedocs.io/en/latest/
-
+.. _documentation: https://{{ cookiecutter.project_name }}.readthedocs.io
