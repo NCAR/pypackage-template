@@ -9,7 +9,6 @@ Contents:
    installation
    usage
    contributing
-   authors
    changelog
 
 Feedback

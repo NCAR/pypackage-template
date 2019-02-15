@@ -20,9 +20,8 @@ dependencies:
   - recommonmark 
   - numpydoc
   - nbsphinx
-  - pandoc
   - ipykernel
-  - six
+  - pip==18.1
   - pip:
     - sphinx_copybutton
 
