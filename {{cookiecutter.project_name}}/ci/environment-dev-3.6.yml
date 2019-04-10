@@ -23,7 +23,7 @@ dependencies:
   - numpydoc
   - nbsphinx
   - ipykernel
-  - pip==18.1
+  - pip
   - pip:
     - sphinx_copybutton
 

@@ -1,6 +1,4 @@
 [run]
 omit = 
     tests/*.py
-    {{ cookiecutter.project_slug }}/_version.py
-    versioneer.py
     setup.py
