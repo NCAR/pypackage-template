@@ -34,7 +34,6 @@ Then:
       pre-commit install
    
 * Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
-* Run `tox` to make sure all tests pass.
 * Release your package the standard Python way.
 
 

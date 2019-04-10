@@ -26,3 +26,20 @@
 See documentation_ for more information.
 
 .. _documentation: https://{{ cookiecutter.project_name }}.readthedocs.io
+
+
+Installation
+------------
+
+{{ cookiecutter.project_name }} can be installed from PyPI with pip:
+
+.. code-block:: bash
+
+    pip install {{ cookiecutter.project_name }}
+
+
+It is also available from `conda-forge` for conda installations:
+
+.. code-block:: bash
+
+    conda install -c conda-forge {{ cookiecutter.project_name }}
