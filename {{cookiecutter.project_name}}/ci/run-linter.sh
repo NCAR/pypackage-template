@@ -8,7 +8,7 @@ echo "Code Styling with (black, flake8, isort)"
 source activate ${ENV_NAME}
 
 echo "[flake8]"
-flake8
+flake8 {{ cookiecutter.project_name }}
 
 echo "[black]"
 black --check --line-length=100 -S .
