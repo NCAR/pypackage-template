@@ -3,7 +3,6 @@
 """The setup script."""
 
 from setuptools import setup, find_packages
-import versioneer
 from os.path import exists
 
 
@@ -34,6 +33,6 @@ setup(
     license='{{ cookiecutter.open_source_license }}',
     zip_safe=False,
     keywords='{{ cookiecutter.project_name }}',
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    use_scm_version=True,
+    setup_requires=['setuptools_scm', 'setuptools>=30.3.0', 'setuptools_scm_git_archive'],
 )

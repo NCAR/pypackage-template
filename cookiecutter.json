@@ -1,7 +1,7 @@
 {
     "maintainer_full_name": "Foo Bar",
-    "maintainer_email": "foo@example.com",
-    "github_username_or_organization": "foobar",
+    "maintainer_email": "foo@ucar.edu",
+    "github_username_or_organization": "NCAR",
     "project_name": "example-demo",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "{{ cookiecutter.project_name }}",

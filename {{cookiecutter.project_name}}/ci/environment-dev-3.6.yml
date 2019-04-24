@@ -1,29 +1,31 @@
-name: {{ cookiecutter.project_name }}-dev
+name: dev
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
-  - numpy
-  - xarray
-  - netcdf4
-  - zarr
+  - autopep8
+  - black
+  - codecov
+  - coverage
   - dask
   - distributed
-  - autopep8
   - flake8
-  - black
-  - isort
-  - pytest
-  - coverage
-  - pytest-cov
-  - codecov
-  - sphinx>=1.6
-  - sphinx_rtd_theme
-  - recommonmark 
-  - numpydoc
-  - nbsphinx
+  - git 
   - ipykernel
-  - pip==18.1
+  - isort
+  - make
+  - nbsphinx
+  - netcdf4
+  - numpy
+  - numpydoc
+  - pip
+  - pytest
+  - pytest-cov
+  - python=3.6
+  - recommonmark 
+  - sphinx_rtd_theme
+  - sphinx>=1.6
+  - xarray
+  - zarr
   - pip:
     - sphinx_copybutton
 
