@@ -22,7 +22,6 @@ package-name
     :alt: Conda Version
 
 
-{{ cookiecutter.project_short_description}}.
 See documentation_ for more information.
 
 .. _documentation: https://package-name.readthedocs.io
