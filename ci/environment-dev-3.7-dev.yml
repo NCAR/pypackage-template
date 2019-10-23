@@ -3,6 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - bottleneck
+  - flake8
+  - black
+  - autopep8
+  - isort
   - codecov
   - pip
   - pytest
