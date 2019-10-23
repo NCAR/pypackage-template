@@ -1,0 +1,13 @@
+name: dev
+channels:
+  - conda-forge
+dependencies:
+  - bottleneck
+  - codecov
+  - pip
+  - pytest
+  - pytest-cov
+  - python=3.6
+  - pip:
+    - pytest-lazy-fixture
+    - pytest-xdist
