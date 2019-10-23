@@ -1,45 +1,44 @@
-.. image:: https://img.shields.io/circleci/project/github/NCAR/cookiecutter-pypackage/master.svg?style=for-the-badge
-    :target: https://circleci.com/gh/NCAR/cookiecutter-pypackage/tree/master
+===============================
+package-name
+===============================
 
-Cookiecutter-pypackage
-======================
+.. image:: https://img.shields.io/circleci/project/github/NCAR/package-name/master.svg?style=for-the-badge&logo=circleci
+    :target: https://circleci.com/gh/NCAR/package-name/tree/master
 
-Custom cookiecutter template for a Python package.
-
-
-* Free software: Apache-2.0 license
-* Pytest_ runner: Supports `unittest`, `pytest`, `nose` style tests and more
-* Circle-CI_: Ready for CircleCI Continuous integration testing
-* Coverage_ : Code coverage with codecov.
-* Sphinx_ docs: Documentation raedy for generation with, for example, ReadTheDocs_
-* Pre-commit_ hooks: Code style pre-commit hooks (black, isort, flake8, ...) that will run every time you are about to commit code
+.. image:: https://img.shields.io/codecov/c/github/NCAR/package-name.svg?style=for-the-badge
+    :target: https://codecov.io/gh/NCAR/package-name
 
 
-Usage
------
+.. image:: https://img.shields.io/readthedocs/package-name/latest.svg?style=for-the-badge
+    :target: https://package-name.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
-Generate a Python package project::
+.. image:: https://img.shields.io/pypi/v/package-name.svg?style=for-the-badge
+    :target: https://pypi.org/project/package-name
+    :alt: Python Package Index
 
-    cookiecutter https://github.com/NCAR/cookiecutter-pypackage.git
-
-Then:
-
-* Create a repo and put it there.
-* Add the repo to your Circle CI account.
-* Add the repo to your codecov.io account (optional)
-* (Optional) install pre-commit hooks from the root directory of the created project by running::
-
-      pip install pre-commit
-
-      pre-commit install
-   
-* Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
-* Release your package the standard Python way.
+.. image:: https://img.shields.io/conda/vn/conda-forge/package-name.svg?style=for-the-badge
+    :target: https://anaconda.org/conda-forge/package-name
+    :alt: Conda Version
 
 
-.. _Circle-CI: https://circleci.com/dashboard
-.. _Sphinx: http://sphinx-doc.org/
-.. _ReadTheDocs: https://readthedocs.org/
-.. _Pytest: http://pytest.org/
-.. _Coverage: https://codecov.io/
-.. _Pre-commit: https://github.com/pre-commit/pre-commit-hooks
+See documentation_ for more information.
+
+.. _documentation: https://package-name.readthedocs.io
+
+
+Installation
+------------
+
+package-name can be installed from PyPI with pip:
+
+.. code-block:: bash
+
+    pip install package-name
+
+
+It is also available from `conda-forge` for conda installations:
+
+.. code-block:: bash
+
+    conda install -c conda-forge package-name

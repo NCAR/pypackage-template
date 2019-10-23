@@ -1,0 +1,17 @@
+name: dev
+channels:
+  - conda-forge
+dependencies:
+  - bottleneck
+  - flake8
+  - black
+  - autopep8
+  - isort
+  - codecov
+  - pip
+  - pytest
+  - pytest-cov
+  - python=3.7
+  - pip:
+    - pytest-lazy-fixture
+    - pytest-xdist
