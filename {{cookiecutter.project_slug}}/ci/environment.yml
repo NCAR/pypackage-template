@@ -1,4 +1,4 @@
-name: {{ cookiecutter.project_slug }}-dev
+name: sandbox
 channels:
   - conda-forge
 dependencies:
