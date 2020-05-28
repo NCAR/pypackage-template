@@ -11,3 +11,12 @@
 
 {{ cookiecutter.project_name }}
 {% for _ in cookiecutter.project_name %}={% endfor %}
+
+Development
+------------
+
+For a development install, do the following in the repository directory:
+
+.. code-block:: bash
+
+    python -m pip install -e .
