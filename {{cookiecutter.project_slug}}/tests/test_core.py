@@ -1,5 +1,5 @@
 import pytest
-import xarray
+import xarray as xr
 
 def test_foo():
     assert 'foo' == 'foo'
