@@ -1,9 +1,10 @@
 #!/usr/bin/env python
-"""Top-level module for package_name ."""
+# flake8: noqa
+"""Top-level module for {{cookiecutter.project_slug}} ."""
 from pkg_resources import DistributionNotFound, get_distribution
 
 try:
     __version__ = get_distribution(__name__).version
 except DistributionNotFound:
     # package is not installed
-    pass
+    _version__ = '0.0.0'

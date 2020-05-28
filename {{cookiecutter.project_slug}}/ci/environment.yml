@@ -1,0 +1,10 @@
+name: {{ cookiecutter.project_slug }}-dev
+channels:
+  - conda-forge
+dependencies:
+  - codecov
+  - dask
+  - pip
+  - pytest
+  - pytest-cov
+  - xarray
