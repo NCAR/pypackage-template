@@ -48,6 +48,10 @@ setup(
     name='{{ cookiecutter.project_slug }}',
     packages=find_packages(include=['{{ cookiecutter.project_slug }}', '{{ cookiecutter.project_slug }}.*']),
     url='https://github.com/{{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_slug }}',
-    version='{{ cookiecutter.version }}',
+      project_urls={
+        'Documentation': 'https://github.com/{{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_slug }}',
+        'Source': 'https://github.com/{{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_slug }}',
+        'Tracker': 'https://github.com/{{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_slug }}/issues'
+    },
     zip_safe=False,
 )
