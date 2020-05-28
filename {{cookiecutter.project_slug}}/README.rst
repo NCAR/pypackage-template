@@ -19,4 +19,6 @@ For a development install, do the following in the repository directory:
 
 .. code-block:: bash
 
+    conda env update -f ci/environment.yml
+    conda activate sandbox-devel
     python -m pip install -e .

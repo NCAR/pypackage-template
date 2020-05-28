@@ -1,2 +1,2 @@
-dask[complete]
+netcdf4
 xarray

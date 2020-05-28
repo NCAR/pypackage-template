@@ -1,9 +1,9 @@
-name: sandbox
+name: sandbox-devel
 channels:
   - conda-forge
 dependencies:
   - codecov
-  - dask
+  - netcdf4
   - pip
   - pytest
   - pytest-cov
