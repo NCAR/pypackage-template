@@ -35,7 +35,7 @@ Then:
 * Add the repo to your codecov.io account (optional)
 * (Optional) install pre-commit hooks from the root directory of the created project by running::
 
-      pip install pre-commit
+      python -m pip install pre-commit
 
       pre-commit install
 
