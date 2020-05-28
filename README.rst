@@ -1,5 +1,6 @@
-.. image:: https://img.shields.io/circleci/project/github/NCAR/cookiecutter-pypackage/master.svg?style=for-the-badge
-    :target: https://circleci.com/gh/NCAR/cookiecutter-pypackage/tree/master
+.. image:: https://img.shields.io/github/workflow/status/NCAR/cookiecutter-pypackage/CI?logo=github&style=for-the-badge
+    :target: https://github.com/NCAR/cookiecutter-pypackage/actions
+    :alt: GitHub Workflow CI Status
 
 Cookiecutter PyPackage
 ======================
@@ -38,7 +39,6 @@ Then:
 
       pre-commit install
 
-* Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
 * Release your package the standard Python way.
 
 
