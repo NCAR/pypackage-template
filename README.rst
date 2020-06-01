@@ -51,5 +51,5 @@ Then:
 .. _Pre-commit: https://github.com/pre-commit/pre-commit-hooks
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _PyPI: https://pypi.org/
-. _Sphinx: http://sphinx-doc.org/
+.. _Sphinx: http://sphinx-doc.org/
 .. _ReadTheDocs: https://readthedocs.org/
