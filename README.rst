@@ -16,6 +16,7 @@ Features
 * GitHub-Actions_: Ready for continuous integration testing using GitHub Actions
 * Coverage_ : Code coverage with codecov.
 * Pre-commit_ hooks: Code style pre-commit hooks (black, isort, flake8, ...) that will run every time you are about to commit code
+* Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
 * Auto-release to PyPI_ when you push a new tag to master (optional)
 
 Usage
@@ -39,6 +40,8 @@ Then:
 
       pre-commit install
 
+
+* (Optional) Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
 * Release your package the standard Python way.
 
 
@@ -48,3 +51,5 @@ Then:
 .. _Pre-commit: https://github.com/pre-commit/pre-commit-hooks
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _PyPI: https://pypi.org/
+. _Sphinx: http://sphinx-doc.org/
+.. _ReadTheDocs: https://readthedocs.org/

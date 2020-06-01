@@ -8,3 +8,5 @@ dependencies:
   - pytest
   - pytest-cov
   - xarray
+  - numpydoc
+  - nbsphinx

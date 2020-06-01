@@ -29,3 +29,8 @@ jobs:
           cd ./python_boilerplate && tree -L 3
           python -m pip install -e .
           pytest -v
+
+          # Build docs
+          cd docs
+          python -m pip install -r requirements-docs.txt
+          make html
