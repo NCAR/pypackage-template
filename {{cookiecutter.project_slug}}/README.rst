@@ -9,6 +9,20 @@
 .. image:: https://img.shields.io/codecov/c/github/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.project_slug}}.svg?style=for-the-badge
     :target: https://codecov.io/gh/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.project_slug}}
 
+.. If you want the following badges to be visible, please remove this line, and unindent the lines below
+    .. image:: https://img.shields.io/readthedocs/{{cookiecutter.project_slug}}/latest.svg?style=for-the-badge
+        :target: https://{{cookiecutter.project_slug}}.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+    .. image:: https://img.shields.io/pypi/v/{{cookiecutter.project_slug}}.svg?style=for-the-badge
+        :target: https://pypi.org/project/{{cookiecutter.project_slug}}
+        :alt: Python Package Index
+
+    .. image:: https://img.shields.io/conda/vn/conda-forge/{{cookiecutter.project_slug}}.svg?style=for-the-badge
+        :target: https://anaconda.org/conda-forge/{{cookiecutter.project_slug}}
+        :alt: Conda Version
+
+
 {{ cookiecutter.project_name }}
 {% for _ in cookiecutter.project_name %}={% endfor %}
 
