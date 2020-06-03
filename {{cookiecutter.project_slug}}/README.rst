@@ -27,7 +27,7 @@ For a development install, do the following in the repository directory:
 Re-create notebooks with Pangeo Binder
 --------------------------------------
 
-Try these notebooks on Pangeo Binder. Note that the session is ephemeral.
+Try notebooks hosted in this repo on Pangeo Binder. Note that the session is ephemeral.
 Your home directory will not persist, so remember to download your notebooks if you
 made changes that you need to use at a later time!
 
