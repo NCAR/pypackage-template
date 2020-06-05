@@ -35,7 +35,7 @@ Then:
 
 * Create a git repo and push it to GitHub.
 * (Optional) Add the repo to your codecov.io account
-* (Optional) install pre-commit hooks from the root directory of the created project by running::
+* Install pre-commit hooks from the root directory of the created project by running::
 
       python -m pip install pre-commit
 

@@ -37,6 +37,12 @@ For a development install, do the following in the repository directory:
     conda activate sandbox-devel
     python -m pip install -e .
 
+Also, please install `pre-commit` hooks from the root directory of the created project by running::
+
+      python -m pip install pre-commit
+      pre-commit install
+
+These code style pre-commit hooks (black, isort, flake8, ...) will run every time you are about to commit code.
 
 Re-create notebooks with Pangeo Binder
 --------------------------------------
