@@ -6,6 +6,9 @@ on:
   pull_request:
     branches:
       - "*"
+  schedule:
+    - cron: "0 0 * * *" # Daily “At 00:00”
+  workflow_dispatch: # allows you to trigger manually
 
 jobs:
   build:
@@ -19,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Cache conda
-        uses: actions/cache@v1
+        uses: actions/cache@v2
         env:
           # Increase this value to reset cache if ci/environment.yml has not changed
           CACHE_NUMBER: 0
@@ -60,7 +63,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: set up Python 3.8
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v2
         with:
             python-version: 3.8
 
