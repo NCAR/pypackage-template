@@ -25,6 +25,8 @@ Usage
 
 Install the latest Cookiecutter if you haven't installed it yet (this requires Cookiecutter 1.4.0 or higher)::
 
+    conda install -c conda-forge cookiecutter
+    # or
     python -m pip install -U cookiecutter
 
 Generate a Python package project::
@@ -37,8 +39,11 @@ Then:
 * (Optional) Add the repo to your codecov.io account
 * Install pre-commit hooks from the root directory of the created project by running::
 
+      conda install -c conda-forge pre-commit
+      # or
       python -m pip install pre-commit
 
+      # Enable the pre-commit hooks
       pre-commit install
 
 

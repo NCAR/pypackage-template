@@ -39,18 +39,18 @@ For a development install, do the following in the repository directory:
 
 Also, please install `pre-commit` hooks from the root directory of the created project by running::
 
-      python -m pip install pre-commit
       pre-commit install
 
 These code style pre-commit hooks (black, isort, flake8, ...) will run every time you are about to commit code.
 
-Re-create notebooks with Pangeo Binder
---------------------------------------
+.. If you want the following badges to be visible, please remove this line, and unindent the lines below
+    Re-create notebooks with Pangeo Binder
+    --------------------------------------
 
-Try notebooks hosted in this repo on Pangeo Binder. Note that the session is ephemeral.
-Your home directory will not persist, so remember to download your notebooks if you
-made changes that you need to use at a later time!
+    Try notebooks hosted in this repo on Pangeo Binder. Note that the session is ephemeral.
+    Your home directory will not persist, so remember to download your notebooks if you
+    made changes that you need to use at a later time!
 
-.. image:: https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue&style=for-the-badge
-    :target: https://binder.pangeo.io/v2/gh/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.project_slug}}/master?urlpath=lab
-    :alt: Binder
+    .. image:: https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue&style=for-the-badge
+        :target: https://binder.pangeo.io/v2/gh/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.project_slug}}/master?urlpath=lab
+        :alt: Binder
